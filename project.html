@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    
+    <title>Project</title>
+</head>
+<body>
+    <header>
+        <h1>Project</h1>
+        <div class="navbar">
+            <a href="register.html"> Project</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html"> About Me</a>
+            <a href="contactme.html"> Contact me</a>
+            <a href="project.html"> Project</a>
+            </div>
+        </div>
+        </div>
+    </header>
+        <p>As a cloud engineer and also a student of AltSchool Africa, i have done quite a number of project during the course of my study.<br>Below are some of the project </p>
+          <ul><h1>Project</h1></ul>
+          <li><strong>Vagrant</strong><br>manually configured a multi vm environment on vagrant</li>
+          <li><strong>Terraform</strong><br>Using Terraform, i was able to create 3 instance and put them behind an application load balancer. i made sure that terraform export the 3 ip address of the instance to a local file (host_inventory) which was used by ansible to deployed a stateless application to an nginx web server </li>
+          <li><strong>Ansible</strong><br>using 2 private EC2 instance and bastion host, i used ansible to deploy a stateless application to an apache webserver and lastly, configured an application load balancer to route traffic to these instances </li>
+          <li><strong>Cronjob</strong><br>using Cronjob, i wrote a bash script to run at every hour, saving system memory (RAM) usage to a local file and at midnight, it send the content of this file to the provided email address</li>
